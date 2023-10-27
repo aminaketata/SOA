@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:BanqueService xmlns:tns="http://www.example.org/ServiceBanque" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/ServiceBanque ServiceBanque.xsd ">
+  <tns:conversion>
+    <tns:montant>0.0</tns:montant>
+  </tns:conversion>
+  <tns:getCompte>
+    <tns:code>1</tns:code>
+    <tns:solde>154.5</tns:solde>
+    <tns:dateCreation>2001-07-01</tns:dateCreation>
+  </tns:getCompte>
+  <tns:getComptes>
+    <tns:code>2</tns:code>
+    <tns:solde>24.56</tns:solde>
+    <tns:dateCreation>2014-07-15</tns:dateCreation>
+  </tns:getComptes>
+   <tns:getComptes>
+    <tns:code>7</tns:code>
+    <tns:solde>4000</tns:solde>
+    <tns:dateCreation>2015-03-26</tns:dateCreation>
+  </tns:getComptes> <tns:getComptes>
+    <tns:code>5</tns:code>
+    <tns:solde>523.36</tns:solde>
+    <tns:dateCreation>2000-05-08</tns:dateCreation>
+  </tns:getComptes>
+</tns:BanqueService>
